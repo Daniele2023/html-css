@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Grouping Tags</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(221, 218, 214);
+    margin:0px;
+}
+header {
+    background-color:white;
+    padding:10px;
+    margin:10px;
+
+    }
+main {
+      background-color:white;
+      padding:10px;
+      margin:10px;
+      }
+article {
+      background-color:aquamarine;
+}
+article>aside {background-color:aqua;}
+footer {
+      background-color:black;
+      color:white;
+      text-align:center;
+      padding:1px;
+      margin:0px;
+
+}
+footer>p {
+    margin:0px;
+}
+nav {
+    background-color:rgb(143, 139, 139);
+    padding:3px;
+    box-shadow: 1pt -2pt 8pt 0pt black;
+}
+nav>a {
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    margin-right:30px;
+    
+}
+nav>a:hover {text-decoration:underline;}
+div#bola {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:rgba(221, 8, 139, 0.616);
+}
+
+</style>
+
+</head>
+<body>
+  <header> <!--Significa cabeçalho. E diferente de head-->
+    <h1>Meu site</h1>
+       <nav> <!--Menu do site-->
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+
+       </nav>
+  </header>
+  <main> <!--Conteúdo principal-->
+      <section id="assuntos">
+      <p>Esportes Política Tecnologia</p>
+      </section>
+      <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ex distinctio, debitis illum sapiente corporis!</p>
+               <aside> <!--conteúdo periférico referente ao article-->
+                <p>Artigo escrito por José da Silva</p>
+
+               </aside>
+            </article>
+            <article>
+
+            </article>
+
+      </section>
+
+  </main>
+     <footer> <!--Fica o rodapé do site-->
+ <p>Desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+
+    <div id="bola"> </div>
+
+</body>
+
+
+
+</html>

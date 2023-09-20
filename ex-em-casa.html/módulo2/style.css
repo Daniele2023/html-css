@@ -1,0 +1,22 @@
+@charset "utf-8";
+ h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32px;
+    color: #AB685B;
+
+ }
+ h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-weight:normal;
+    color: #AB685B;
+
+ }
+p {
+    font:italic 1em arial, helvetica, sans-serif;
+    color: black;
+}
+
+body  {background-color: darkturquoise;
+}
+    
